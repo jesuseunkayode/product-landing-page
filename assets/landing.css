@@ -1,0 +1,479 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   font-size: 100%;
+}
+
+nav {
+  line-height: 100px;
+}
+
+a {
+   color: black;
+}
+
+
+nav ol {
+   float: right;
+   display: flex;
+   flex-direction: row;
+   line-height: 60px;
+   padding-right: 5rem;
+}
+
+nav ol .nav-link {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  padding-left: 6rem;
+
+}
+
+
+
+#header-img {
+   width: 30%;
+   height: auto;
+}
+
+h1 {
+   font-family: Georgia, serif;
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+input[type=email] {
+   padding: 7px;
+   box-sizing: border-box;
+   width: 30%;
+   margin: 0 auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+input[type=submit] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: orange;
+  color: black;
+  border: none;
+  outline: none;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 22px;
+}
+
+p {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.heading-text {
+   padding-left: 180px;
+   margin-bottom: 60px;
+}
+
+.premium-logo {
+   position: absolute;
+   left: 110px;
+}
+
+.shipping-logo {
+  position: absolute;
+  left: 110px;
+}
+
+.assurance-logo {
+  position: absolute;
+  left: 110px;
+}
+
+#how {
+   text-align: center;
+}
+
+
+.product-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tenor-trombone {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 26%;
+  height: 400px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.bass-trombone {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 26%;
+  height: 400px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.valve-trombone {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 26%;
+  height: 400px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.tenor-trombone > h2, .bass-trombone > h2, .valve-trombone > h2 {
+  padding: 15px;
+  background-color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+.premium-text > p, .bass-text > p, .valve-text > p {
+ font-weight: 400px;
+ line-height: 40px;
+ font-size: 20px;
+}
+
+.price, .price2, .price3 {
+   font-size: 30px;
+   margin-top: 30px;
+   margin-bottom: 10px;
+}
+
+#next {
+   padding: 10px 25px 10px 25px;
+   text-transform: uppercase;
+   font-family: verdana, sans-serif;
+   font-size: 20px;
+   background-color: orange;
+   margin-top: 50px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+
+#next2 {
+  padding: 10px 25px 10px 25px;
+  text-transform: uppercase;
+  font-family: verdana, sans-serif;
+  font-size: 20px;
+  background-color: orange;
+  margin-top: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+  #next3 {
+  padding: 10px 25px 10px 25px;
+  text-transform: uppercase;
+  font-family: verdana, sans-serif;
+  font-size: 20px;
+  background-color: orange;
+  margin-top: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  height: 80px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  line-height: 50px;
+}
+
+.footer-text {
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: Verdana, sans-serif;
+}
+
+/* mobile responsiveness starts from here   */
+
+@media (max-width: 600px) {
+  #header-img {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+  }
+    nav ol {
+      display: flex;
+      flex-direction: column;
+      line-height: 30px;
+      justify-content: center;
+      align-items: center;
+      float: none;
+      margin-top: 10px;
+    }
+    #nav-bar {
+       margin-bottom: 20px;
+    }
+
+    h1 {
+       font-family: Georgia, serif;
+       font-size: 22px;
+       text-align: center;
+       margin-bottom: 20px;
+    }
+
+    input[type=email] {
+       padding: 7px;
+       box-sizing: border-box;
+       width: 70%;
+       margin: 0 auto;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       border: 1px solid black;
+       border-radius: 5px;
+    }
+
+    input[type=submit] {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px 10px;
+      font-family: Georgia, serif;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: bold;
+      background-color: orange;
+      color: black;
+      border: none;
+      outline: none;
+      margin-bottom: 100px;
+      cursor: pointer;
+    }
+
+   h2 {
+     text-align: center;
+     font-family: Georgia, serif;
+     font-size: 22px;
+   }
+
+   .premium-logo {
+      position: absolute;
+      left: 220px;
+      top: 370px;
+   }
+
+    p {
+      font-family: Verdana, sans-serif;
+      font-size: 16px;
+      line-height: 20px;
+      padding-left: 15px;
+
+    }
+
+    .premium, .shipping, .assurance {
+      margin-bottom: 75px;
+    }
+
+    #video {
+      width: 100%;
+      height auto;
+    }
+
+    .product-details {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tenor-trombone {
+      border: 1px solid black;
+      border-radius: 5px;
+      width: 70%;
+      height: 450px;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 25px;
+    }
+     .premium-text > p {
+      font-weight: 400px;
+      line-height: 40px;
+      font-size: 20px;
+    }
+    .tenor-trombone > h2 {
+      padding: 15px;
+      background-color: #f2f2f2;
+      text-transform: uppercase;
+    }
+
+    #next {
+       padding: 18px 35px 18px 35px;
+       text-transform: uppercase;
+       font-family: verdana, sans-serif;
+       font-size: 20px;
+       background-color: orange;
+       margin-top: 60px;
+       border: none;
+       border-radius: 5px;
+       cursor: pointer;
+    }
+    .premium-text {
+      margin-top: 40px;
+    }
+
+    .price {
+       font-size: 30px;
+       margin-top: 30px;
+       margin-bottom: 10px;
+    }
+
+    .bass-trombone {
+      border: 1px solid black;
+      border-radius: 5px;
+      width: 70%;
+      height: 450px;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 35px;
+    }
+
+    .bass-text > p {
+      font-weight: 400;
+      line-height: 40px;
+      font-size: 20px;
+    }
+    .bass-trombone > h2 {
+      padding: 15px;
+      background-color: #f2f2f2;
+      text-transform: uppercase;
+    }
+    .bass-text {
+      padding-bottom: 15px;
+    }
+    .price2 {
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 35px;
+    }
+
+    #next2 {
+      padding: 18px 35px 18px 35px;
+      text-transform: uppercase;
+      font-family: verdana, sans-serif;
+      font-size: 20px;
+      background-color: orange;
+      margin-top: 60px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .valve-trombone {
+      border: 1px solid black;
+      border-radius: 5px;
+      width: 70%;
+      height: 450px;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 35px;
+    }
+
+    .price3 {
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 35px;
+    }
+      #next3 {
+      padding: 18px 35px 18px 35px;
+      text-transform: uppercase;
+      font-family: verdana, sans-serif;
+      font-size: 20px;
+      background-color: orange;
+      margin-top: 70px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .valve-text > p {
+      font-weight: 400;
+      line-height: 40px;
+      font-size: 20px;
+    }
+     .valve-trombone > h2 {
+       padding: 15px;
+       background-color: #f2f2f2;
+       text-transform: uppercase;
+     }
+
+     footer {
+       background-color: #f2f2f2;
+       text-align: center;
+       height: 110px;
+       margin-top: 40px;
+       display: flex;
+       justify-content: space-around;
+       align-items: stretch;
+       line-height: 50px;
+     }
+
+     .footer-text {
+       padding-left: 20px;
+       font-size: 18px;
+       font-family: Verdana, sans-serif;
+     }
+
+     header {
+       position: fixed;
+       top: 0;
+       background-color: #f2f2f2;
+       z-index: 2;
+     }
+
+     main {
+       margin-top: 190px;
+       z-index: 1;
+     }
+     .heading-text {
+        padding-left: 0px;
+     }
+
+     .shipping-logo {
+       position: absolute;
+       left: 220px;
+       top: 520px;
+     }
+
+     .assurance-logo {
+       position: absolute;
+       left: 220px;
+       top: 680px;
+     }
+}
+
+
+#form {
+  width: 100%;
+}
